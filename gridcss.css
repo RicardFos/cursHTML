@@ -1,6 +1,6 @@
 .grid-container {
 display: grid;
-grid-template-columns: auto auto auto auto;
+grid-template-columns: auto auto auto auto auto;
 padding: 2px;
 background-color: rgb(0,0,0);
 }
@@ -11,5 +11,21 @@ font-size: 30px;
 text-align: center;
 }
 div.doubleY{
-height: 200px;
+	grid-row-end: span 2;
+}
+div.tripleY{
+	grid-row-end: span 3;
+}
+div.doubleX{
+	grid-column-end: span 2;
+}
+div {
+	position: relative;
+}
+#full-row {
+	grid-column-end: span 5;
+}
+#bigB {
+	grid-column-end: span 3;
+	grid-row-end: span 2;
 }
