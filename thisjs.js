@@ -1,8 +1,8 @@
 window.onload = function(){
-	document.getElementById("barratext").onkeydown = addcharacter();
+	document.getElementById("barratext").onkeyup = addcharacter;
 }
 
 function addcharacter(){
 	var x = document.getElementById("barratext");
-	x.value = "ho";
+	x.value =  x.value + "-"
 }
