@@ -1,5 +1,5 @@
 window.onload = function(){
-	document.getElementById("barratext").onchange = addcharacter();
+	document.getElementById("barratext").onkeydown = addcharacter();
 }
 
 function addcharacter(){
