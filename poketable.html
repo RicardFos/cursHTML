@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pilotes</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="poketable.js"></script>
+	
+
+<style type="text/css">
+	table {
+	height: 500px;
+	width: 500px;
+	}
+	table, td, tr, th {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	</style>
+</head>
+<body>
+	<table> 
+	<tr>
+		<th> Code </th>
+		<th> Normal Sprite </th>
+		<th> Shiny Sprite </th>
+		<th> Name </th>
+		<th> Type </th>
+		<th> HM </th>
+	</tr>
+	<tr>
+		<td id="code"></td>
+		<td>
+		<img id= "normal_sprite" src="" 
+				alt = "image not found"></td>
+		<td>
+			<img id= "shiny_sprite" src="" 
+				alt = "image not found"></td>
+		</td>
+		<td id="name"></td>
+		<td id="type"></td>
+		<td id="hm"></td>
+	</tr>
+	</table>
+
+	<button type="button" id = "previous"><</button>
+	<button type="button" id= "next">></button>
+	<br>
+	<p> Search by number or name </p>
+	<input type="text" name="search", id = "searchbar">
+	<button type="button" id = "search">Search</button>
+</body> 
+</html>
