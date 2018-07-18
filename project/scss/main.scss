@@ -1,0 +1,30 @@
+/* Slideshow container */
+.slideshow-container {
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+
+  .mySlides {
+    width:  100%;
+    height: 100px;
+    z-index: 0;
+    display: none;
+  }
+}
+
+#menubuttons{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  button{
+    width: 2000px;
+    height: 50px;
+  }
+
+}
+
+#marcofoto {
+  height: 100%;
+  width: 500px;
+  overflow: hidden;
+}

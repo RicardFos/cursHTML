@@ -10,7 +10,7 @@ window.onload = function () {
 	radius = radius * 0.90
 	drawClock();
 	setInterval(drawClock, 1000);
-	setInterval(showSlides, 2000);
+	setInterval(showSlides, 6w000);
 
 function drawClock() {
   drawFace(ctx, radius);
