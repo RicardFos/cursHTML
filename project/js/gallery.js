@@ -6,8 +6,6 @@ window.onload = function () {
 	
 	setInterval(showSlides, 6000);
 
-
-
 	function showSlides() {
 		var i;
 		var slides = document.getElementsByClassName("mySlides");
